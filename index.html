@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPOTIFY</title>
+    <title>SPOTIFY_CLONE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <p>This is spotify clone</p>
+    <nav>
+        <ul>
+            <li class="brand"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songslist">
+             <h1>Best of NCS - No Copy-Right Sounds</h1>
+             <div class="songItemsContainer">
+                <div class="songItems">
+                    <img src="cover.PNG" alt="1">
+                    <span>Dhun By Saiyaara</span>
+                    <span class="songListplay"><span class="timestamp">05:34  <i class="fa-regular fa-circle-play fa-sm"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover.PNG" alt="1">
+                    <span>Dhun By Saiyaara</span>
+                    <span class="songListplay"><span class="timestamp">05:34  <i class="fa-regular fa-circle-play fa-sm"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover.PNG" alt="1">
+                    <span>Dhun By Saiyaara</span>
+                    <span class="songListplay"><span class="timestamp">05:34  <i class="fa-regular fa-circle-play fa-sm"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover.PNG" alt="1">
+                    <span>Dhun By Saiyaara</span>
+                    <span class="songListplay"><span class="timestamp">05:34  <i class="fa-regular fa-circle-play fa-sm"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover.PNG" alt="1">
+                    <span>Dhun By Saiyaara</span>
+                    <span class="songListplay"><span class="timestamp">05:34  <i class="fa-regular fa-circle-play fa-sm"></i> </span></span>
+                </div>
+               
+               
+             </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawsom icons -->
+             <i class="fa-solid fa-backward fa-xl" style="color: #63E6BE;"></i>
+             <i class="fa-regular fa-circle-play fa-xl" style="color: #63E6BE;" id ="masterPlay"></i>
+           <i class="fa-solid fa-forward fa-xl" style="color: #63E6BE;"></i>
+        </div>
+        <div class="songInfo">
+            <h5>Dhun By Saiyaara</h5>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
